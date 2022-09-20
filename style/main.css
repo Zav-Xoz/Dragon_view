@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    background: #f1f1f1;
+}
+
+p{
+    margin-bottom: 10px;
+    line-height: 27px;
+}
+
+p span {
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 27px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+hr {
+    margin-bottom: 6px;
+    margin-top: 6px;
+    background: #ccc;
+}
+
+/* --------------------------- slider */
+.slider-button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.back{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    width: 170px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    background: blue;
+}
+.back:hover {
+    background: #8b8bf3;
+}
+
+button,
+.link-wikipedia {
+    background: #ffa500;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: .9rem;
+    cursor: pointer;
+}
+
+button:hover,
+.link-wikipedia:hover {
+    background: orangered;
+}
+
+button:active,
+.link-wikipedia:active {
+    background: #000;
+    color: #fff;
+}
+
+.slider {
+    border: 2px solid #ffa500;
+    max-width: 80%;
+    overflow: hidden;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.slider-line {
+    display: flex;
+    background: orange;
+    transition: all ease 1s;
+}
+ 
+/* -------------------------  description */
+.description-blosc{
+    padding: 20px;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.link-wikipedia{
+    display: block;
+    margin: 20px auto;
+    max-width: 215px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.options{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width:1200px) {
+    body{
+        font-size: 16px;
+    }
+
+    .container{
+        max-width: 900px;
+    }
+}
+
+@media only screen and (max-width:769px) {
+
+}
+
+ @media only screen and (max-width:480px) {
+    .options{
+        flex-direction: column;
+        align-items: center;
+    }
+ }
