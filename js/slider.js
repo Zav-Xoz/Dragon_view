@@ -44,4 +44,4 @@ function startSlider() {
     // }, false);    
 }
 
-setTimeout(startSlider, 900);
+setTimeout(startSlider, 1200);
