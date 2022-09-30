@@ -40,8 +40,19 @@ _Branch Deployment > the working branch (master), can set up another branch to w
 ---
 ## Unit Tests
 
-Test cases are implemented using the Jest framework.
+#### Test cases are implemented using the Jest framework.
 Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+
+### 1 Easy installation of Freymork using the package manager. 
+(npm i --save-dev jest)
+### 2 For example, we create two pages with a module for testing, absolutely any function. 
+(reverse_string.test.js  and tests.js)
+
+<img src="https://i.ibb.co/ZS0nKR1/reverse.png" alt="reverse" border="0" /> 
+<img src="https://i.ibb.co/ZS0nKR1/reverse.png" alt="reverse" border="0" /></a>
+
+### 3 set the expected data and use the command to monitor the execution
+<img src="https://i.ibb.co/Wpd1kDd/terminal.png" alt="terminal" border="0" /></a>
 ---
 
 ## CI/CD
