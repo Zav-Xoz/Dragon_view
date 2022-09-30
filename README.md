@@ -38,6 +38,11 @@ _Manufacturing industry > main_ <br>
 _Branch Deployment > the working branch (master), can set up another branch to work on the team._
 
 ---
+## Unit Tests
+
+Test cases are implemented using the Jest framework.
+Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+---
 
 ## CI/CD
 
