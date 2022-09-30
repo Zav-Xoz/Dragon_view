@@ -86,7 +86,7 @@ CD - Continuous Delivery
 
 ## Releases
 
-- v 0.1.0
+- v 0.1.2
 
 ## Languages
 
